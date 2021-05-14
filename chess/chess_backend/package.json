@@ -1,0 +1,23 @@
+{
+  "name": "chess_backend",
+  "version": "1.0.0",
+  "description": "the backend of my chess final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "js-chess-engine": "^0.11.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "author": "Mac Stringer",
+  "license": "ISC"
+}
